@@ -1,21 +1,13 @@
 import React from "react";
+import Bloc from "./Bloc";
 import Coucou from "../assets/img/coucou.png";
-const TxtHome = () => {
+
+const Accueil = () => {
   return (
-    <div className="txt-accueil">
-      <div className="txt-title">
-        <div className="txt-title-left">
-          <p>accueil.txt</p>
-        </div>
-        <div className="circles">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
+    <Bloc title="accueil.txt">
       <div className="accueil-content">
         <div className="content-top">
-          <h3>Bienvenue sur mon portfolio ! </h3>
+          <h3>Bienvenue sur mon portfolio !</h3>
           <img src={Coucou} alt="emoji coucou" />
         </div>
         <div className="content-bot">
@@ -25,8 +17,9 @@ const TxtHome = () => {
           </h2>
           <h3>
             Développeur <span className="surlignage">front-end junior</span> qui
-            a pour but de trouver du travail dans ce milieu qui me{" "}
-            <span className="surlignage">passione</span> depuis plusieurs mois.
+            a pour but de <span className="surlignage">travailler</span> dans ce
+            milieu qui me <span className="surlignage">passione</span> depuis
+            plusieurs mois.
           </h3>
         </div>
         <div className="buttons-accueil">
@@ -51,7 +44,6 @@ const TxtHome = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             <i className="fa-brands fa-github"></i>
           </a>
           <a
@@ -59,18 +51,16 @@ const TxtHome = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             <i className="fa-brands fa-linkedin-in"></i>
           </a>
         </div>
         <div className="scroll">
-          {" "}
-          <p>Scrollez pour découvrir mon travail ! </p>
+          <p>Scrollez pour découvrir mon travail !</p>
           <span>&#x23F7;</span>
         </div>
       </div>
-    </div>
+    </Bloc>
   );
 };
 
-export default TxtHome;
+export default Accueil;
