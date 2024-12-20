@@ -1,53 +1,34 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Poppins";
   src: url(../assets/fonts/Poppins-Medium.ttf);
 }
-$font1: Poppins, serif;
-
 @font-face {
   font-family: "Allura";
   src: url(../assets/fonts/Allura-Regular.ttf);
 }
-$font2: Allura, serif;
-
-$white: #ffffff;
-$black: #21201e;
-$green: #22c55e;
-$grey: #7d7d84;
-
-@mixin childCenter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-@mixin alignChildren($space) {
-  display: flex;
-  align-items: center;
-  justify-content: $space;
-}
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
 li {
   list-style: none;
 }
 
 body {
   text-align: center;
-  font-family: $font1;
+  font-family: Poppins, serif;
   background: rgb(2, 2, 2);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 2, 2, 1) 0%,
-    rgba(8, 11, 9, 1) 91%,
-    rgba(17, 23, 19, 1) 97%
-  );
+  background: -webkit-gradient(linear, left top, right top, from(rgb(2, 2, 2)), color-stop(91%, rgb(8, 11, 9)), color-stop(97%, rgb(17, 23, 19)));
+  background: linear-gradient(90deg, rgb(2, 2, 2) 0%, rgb(8, 11, 9) 91%, rgb(17, 23, 19) 97%);
   padding: 0 150px;
   overflow-x: hidden;
-  color: $white;
+  color: #ffffff;
 }
+
 /* Style de la barre de défilement (le fond) */
 ::-webkit-scrollbar {
   width: 5px; /* Largeur de la barre */
@@ -56,11 +37,11 @@ body {
 /* Style de la "piste" de la barre de défilement (le fond de la piste) */
 ::-webkit-scrollbar-track {
   border-radius: 10px;
-  background: $black;
+  background: #21201e;
 }
 
 /* Style du curseur de la barre de défilement (le glisseur) */
 ::-webkit-scrollbar-thumb {
-  background: $white; /* Couleur du curseur */
+  background: #ffffff; /* Couleur du curseur */
   border-radius: 10px;
-}
+}/*# sourceMappingURL=settings.css.map */
