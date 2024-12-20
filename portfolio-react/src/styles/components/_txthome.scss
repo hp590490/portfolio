@@ -4,37 +4,7 @@
   border-radius: 50px;
   max-width: 1180px;
   margin: 20px auto 0;
-  .txt-title {
-    padding: 10px 45px 10px;
-    text-align: left;
-    border-bottom: 1px solid $green;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    p {
-      color: $green;
-      font-size: 0.9rem;
-    }
-    .circles {
-      display: flex;
-      gap: 10px;
-      span {
-        width: 12px;
-        height: 12px;
-        border-radius: 500px;
-        cursor: pointer;
-        &:first-child {
-          background: red;
-        }
-        &:nth-child(2) {
-          background: orange;
-        }
-        &:last-child {
-          background: green;
-        }
-      }
-    }
-  }
+
   .accueil-content {
     .content-top {
       display: flex;

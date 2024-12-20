@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Bloc = ({ title, children }) => {
   return (
-    <div className="bloc">
+    <div className="txt-accueil">
       <div className="txt-title">
         <div className="txt-title-left">
           <p>{title}</p>
