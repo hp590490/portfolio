@@ -1,0 +1,66 @@
+#cards-container {
+  #card {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    &:hover {
+      cursor: pointer;
+      transform: rotateY(180deg);
+    }
+    .front,
+    .back {
+      height: 100%;
+      width: 100%;
+      border-radius: 2rem;
+      box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+      position: absolute;
+      backface-visibility: hidden;
+      background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    }
+    .front {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      .front-img {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 10px;
+
+        img {
+          object-fit: cover;
+          height: 130px;
+          width: 130px;
+        }
+      }
+      .front-txt {
+        text-align: center;
+        color: $black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        h4 {
+          font-size: 1.2rem;
+          align-self: center;
+          margin-top: -50px;
+        }
+        p {
+          font-size: 0.8rem;
+          position: absolute;
+          bottom: 15px;
+          left: 50%;
+          transform: translateX(-50%);
+          border-top: 2px solid $grey;
+          padding-top: 15px;
+        }
+      }
+    }
+    .back {
+      background-color: beige;
+      transform: rotateY(180deg);
+    }
+  }
+}

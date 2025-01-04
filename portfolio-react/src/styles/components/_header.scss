@@ -1,8 +1,23 @@
 #navigation {
   padding: 15px 50px;
-  height: 12vh;
+  height: 11vh;
   display: grid;
   grid-template-columns: 10% 90%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: #090c0a;
+  &.visible {
+    top: 0;
+    transition: top 0.5s ease-out;
+  }
+
+  &.hidden {
+    top: -120px;
+    transition: top 0.5s ease-out;
+  }
   .symbols-left {
     span {
       font-size: 2.5rem;
@@ -33,6 +48,7 @@
 .nav-active {
   position: relative;
   color: $green;
+  transition: 0.3s ease-in-out;
   &::after {
     content: "";
     position: absolute;

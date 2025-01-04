@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Bloc = ({ title, children }) => {
+const Bloc = ({ title, className, children }) => {
   return (
-    <div className="txt-accueil">
+    <div className={`txt-accueil ${className || ""}`}>
       <div className="txt-title">
         <div className="txt-title-left">
           <p>{title}</p>

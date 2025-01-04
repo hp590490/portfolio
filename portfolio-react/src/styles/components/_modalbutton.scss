@@ -1,0 +1,11 @@
+button {
+  border: none;
+  background: none;
+  color: $grey;
+  margin-top: 10px;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    color: $white;
+    cursor: pointer;
+  }
+}
