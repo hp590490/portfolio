@@ -3,9 +3,8 @@
   height: 75vh;
   border-radius: 50px;
   max-width: 1180px;
-  margin: 20px auto 0;
-
-  .accueil-content {
+  margin: 14vh auto 0;
+  #accueil-content {
     .content-top {
       display: flex;
       align-items: center;
@@ -61,6 +60,7 @@
 
         &:first-child {
           background: $green;
+          color: $black;
           &:hover {
             transform: translateX(-5%);
             background: none;
@@ -110,6 +110,7 @@
         display: inline-block; /* nécessaire pour les animations */
         animation: bounce 1s ease-in-out infinite;
         color: $green;
+        cursor: default;
       }
       @keyframes bounce {
         0%,

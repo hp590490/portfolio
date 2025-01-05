@@ -1,0 +1,15 @@
+#competences-content {
+  margin-top: 150px;
+  h2 {
+    margin: 60px auto -50px;
+  }
+  .competences-txt {
+    height: auto;
+  }
+  .competencescards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px 30px;
+  }
+}

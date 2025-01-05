@@ -1,0 +1,111 @@
+#cards-container {
+  perspective: 1000px;
+  #card {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    transform: rotateY(0);
+
+    &.hovered {
+      cursor: pointer;
+      transform: rotateY(180deg);
+    }
+    .front,
+    .back {
+      height: 100%;
+      width: 100%;
+      border-radius: 2rem;
+      box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+      position: absolute;
+      backface-visibility: hidden;
+      background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    }
+    .front {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      .front-img {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 10px;
+
+        img {
+          object-fit: cover;
+          height: 130px;
+          width: 130px;
+        }
+      }
+      .front-txt {
+        text-align: center;
+        color: $black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        h4 {
+          font-size: 1.2rem;
+          align-self: center;
+          margin-top: -50px;
+        }
+        p {
+          font-size: 0.8rem;
+          position: absolute;
+          bottom: 15px;
+          left: 50%;
+          transform: translateX(-50%);
+          border-top: 2px solid $grey;
+          padding-top: 15px;
+        }
+      }
+    }
+    .back {
+      background-color: beige;
+      transform: rotateY(180deg);
+      h4 {
+        color: $black;
+        font-weight: bold;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1.2rem;
+        position: relative;
+        font-style: italic;
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: -10px;
+          left: 50%;
+          transform: translateX(-50%);
+          height: 2px;
+          width: 50%;
+          background-color: $grey;
+        }
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 40px;
+        gap: 10px;
+        color: $black;
+        height: 100%;
+        font-size: 0.85rem;
+        li {
+          position: relative;
+          padding: 0px 30px;
+          margin-bottom: 10px;
+          &::before {
+            content: "•";
+            color: $grey;
+            font-size: 1.5rem;
+            position: absolute;
+            left: 5px;
+            top: -7px;
+          }
+        }
+      }
+    }
+  }
+}

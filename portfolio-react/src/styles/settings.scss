@@ -48,19 +48,15 @@ body {
   overflow-x: hidden;
   color: $white;
 }
-/* Style de la barre de défilement (le fond) */
 ::-webkit-scrollbar {
-  width: 5px; /* Largeur de la barre */
+  width: 5px;
 }
 
-/* Style de la "piste" de la barre de défilement (le fond de la piste) */
 ::-webkit-scrollbar-track {
-  border-radius: 10px;
   background: $black;
 }
 
-/* Style du curseur de la barre de défilement (le glisseur) */
 ::-webkit-scrollbar-thumb {
-  background: $white; /* Couleur du curseur */
+  background: $grey;
   border-radius: 10px;
 }

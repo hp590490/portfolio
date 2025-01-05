@@ -5,7 +5,7 @@ import Coucou from "../assets/img/coucou.png";
 const Accueil = () => {
   return (
     <Bloc title="accueil.txt">
-      <div className="accueil-content">
+      <div id="accueil-content">
         <div className="content-top">
           <h3>Bienvenue sur mon portfolio !</h3>
           <img src={Coucou} alt="emoji coucou" />

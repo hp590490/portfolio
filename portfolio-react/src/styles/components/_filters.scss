@@ -1,0 +1,31 @@
+.filters-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  button {
+    padding: 15px 35px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.4s ease-in-out;
+    color: $grey;
+    background: none;
+    border: 1px solid $grey;
+    &:hover {
+      color: $black;
+      background: $grey;
+      filter: brightness(150%);
+    }
+  }
+  .active {
+    background: $grey;
+    color: $black;
+  }
+}
