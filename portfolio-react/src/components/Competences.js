@@ -112,7 +112,7 @@ const Compétences = () => {
   return (
     <div id="competences-content">
       <h2>Mes compétences</h2>
-      <Bloc title="compétences.txt" className="competences-txt">
+      <Bloc title="compétences.jsx" className="competences-txt">
         <div>
           <div className="competencescards">
             {cardsData.map((card, index) => (

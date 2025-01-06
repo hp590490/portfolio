@@ -13,7 +13,7 @@ const Projets = () => {
     <div id="projets-content">
       <h2>Mes projets</h2>
       <Filter onFilterChange={handleFilterChange} activeFilter={activeFilter} />
-      <Bloc title="projets.txt" className="projets-text">
+      <Bloc title="projets.json" className="projets-text">
         <div className="section-cards">
           <Card activeFilter={activeFilter} />
         </div>

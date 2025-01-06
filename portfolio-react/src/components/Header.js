@@ -35,7 +35,7 @@ const Header = () => {
             <Link
               to="projets-content"
               smooth={true}
-              duration={600}
+              duration={800}
               spy={true}
               activeClass="nav-active"
             >
@@ -46,7 +46,7 @@ const Header = () => {
             <Link
               to="competences-content"
               smooth={true}
-              duration={600}
+              duration={800}
               spy={true}
               activeClass="nav-active"
             >
@@ -55,9 +55,9 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to="about"
+              to="about-content"
               smooth={true}
-              duration={600}
+              duration={800}
               spy={true}
               activeClass="nav-active"
             >
@@ -68,7 +68,7 @@ const Header = () => {
             <Link
               to="contact"
               smooth={true}
-              duration={600}
+              duration={800}
               spy={true}
               activeClass="nav-active"
             >
