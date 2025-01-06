@@ -4,6 +4,7 @@ import TxtHome from "../components/TxtHome";
 import Loading from "../components/Loading";
 import Projets from "../components/Projets";
 import Competences from "../components/Competences";
+import About from "../components/About";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -26,6 +27,7 @@ const Home = () => {
           <TxtHome />
           <Projets />
           <Competences />
+          <About />
         </div>
       )}
     </div>

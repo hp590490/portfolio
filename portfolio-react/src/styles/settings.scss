@@ -1,14 +1,14 @@
 @font-face {
+  font-family: "Inter";
+  src: url(../assets/fonts/Inter-VariableFont_opsz\wght.ttf);
+}
+$font1: Inter, serif;
+
+@font-face {
   font-family: "Poppins";
   src: url(../assets/fonts/Poppins-Medium.ttf);
 }
-$font1: Poppins, serif;
-
-@font-face {
-  font-family: "Allura";
-  src: url(../assets/fonts/Allura-Regular.ttf);
-}
-$font2: Allura, serif;
+$font2: Poppins, serif;
 
 $white: #ffffff;
 $black: #21201e;

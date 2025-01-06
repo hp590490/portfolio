@@ -1,0 +1,117 @@
+#about-content {
+  margin: 150px 0 150px;
+  h2 {
+    margin: 60px auto -50px;
+  }
+  .blocs-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    .about-bloc,
+    .skills-bloc {
+      width: 100%;
+      height: auto;
+      padding-bottom: 20px;
+    }
+    .about-bloc {
+      .line-about {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-align: left;
+        font-size: 0.8rem;
+        font-weight: normal;
+        line-height: 3rem;
+
+        .surlignageblue {
+          color: #60a5fa;
+        }
+        .surlignagegreen {
+          color: $green;
+        }
+        .surlignageyellow {
+          color: #d9a607;
+        }
+        .surlignagepurple {
+          color: #a471d7;
+        }
+        p {
+          padding-left: 20px;
+          align-self: self-start;
+          color: $grey;
+          font-size: 0.9rem;
+        }
+      }
+    }
+    .skills-bloc {
+      .skills-bloc-content {
+        padding-top: 35px;
+        .title-bar {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+          h4 {
+            margin-right: 15px;
+          }
+          img {
+            width: 30px;
+            height: 30px;
+            transform: translateY(-30%);
+          }
+        }
+        .skill {
+          margin-bottom: 35px;
+          padding: 0px 15px;
+          h4 {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: $white;
+            font-style: italic;
+            font-family: $font2;
+          }
+
+          .progress-bar {
+            background: none;
+            border-radius: 5px;
+            overflow: hidden;
+            height: 25px;
+            position: relative;
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+            .progress {
+              height: 100%;
+              border-top-right-radius: 10px;
+              border-bottom-right-radius: 10px;
+              transition: width 1s ease-in-out;
+              box-shadow: 0 2px 5px rgba(106, 17, 203, 0.3);
+              animation: loadBar 2s ease-out forwards;
+            }
+            @keyframes loadBar {
+              from {
+                width: 0%;
+              }
+            }
+            .percentage {
+              position: absolute;
+              right: 10px;
+              top: 50%;
+              transform: translateY(-50%);
+              font-size: 0.9rem;
+              color: $white;
+              font-weight: bold;
+              font-style: italic;
+            }
+          }
+        }
+        p {
+          font-size: 0.8rem;
+          padding-top: 15px;
+          font-style: italic;
+          color: $grey;
+        }
+      }
+    }
+  }
+}
