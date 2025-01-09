@@ -27,10 +27,10 @@ const Contact = () => {
                 {copied && <span className="spanmail">Copié !</span>}
               </h3>
               <h3>
-                <i class="fa-solid fa-phone"></i>06 04 46 61 14
+                <i className="fa-solid fa-phone"></i>06 04 46 61 14
               </h3>
               <h3>
-                <i class="fa-solid fa-location-dot"></i>Région parisienne,
+                <i className="fa-solid fa-location-dot"></i>Région parisienne,
                 France
               </h3>
             </div>
