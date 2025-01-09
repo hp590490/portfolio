@@ -34,7 +34,7 @@ export const ContactForm = () => {
         ref={form}
         onSubmit={sendEmail}
         className="form-contact"
-        autocomplete="off"
+        autoComplete="off"
       >
         <label>Nom</label>
         <input type="text" name="randomName123" placeholder="Votre nom" />
