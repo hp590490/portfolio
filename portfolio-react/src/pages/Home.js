@@ -5,6 +5,8 @@ import Loading from "../components/Loading";
 import Projets from "../components/Projets";
 import Competences from "../components/Competences";
 import About from "../components/About";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -28,6 +30,8 @@ const Home = () => {
           <Projets />
           <Competences />
           <About />
+          <Contact />
+          <Footer />
         </div>
       )}
     </div>

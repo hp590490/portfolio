@@ -135,9 +135,7 @@ const About = () => {
                       width: `${skill.level}%`, // Si visible, applique la largeur
                       backgroundImage: skill.color,
                     }}
-                  >
-                    <span className="percentage">{skill.level}%</span>
-                  </div>
+                  ></div>
                 </div>
               </div>
             ))}
