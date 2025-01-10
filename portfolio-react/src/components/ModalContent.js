@@ -4,7 +4,11 @@ import Caroussel from "./Caroussel";
 const ModalContent = ({ closeModal, id, data }) => {
   const [projet, setProjet] = useState(null);
   const [modalVisible, setModalVisible] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
+  const toggleTheme = () => {
+    setIsDarkMode(!isDarkMode);
+  };
   useEffect(() => {
     // trouver le projet correspondant à l'id
     const selectedProject = data.find((proj) => proj.id === String(id));
@@ -31,7 +35,11 @@ const ModalContent = ({ closeModal, id, data }) => {
   return (
     <>
       <div onClick={handleClose} className="modal-overlay"></div>
-      <div className={`modal-content ${modalVisible ? "show" : ""}`}>
+      <div
+        className={`modal-content ${modalVisible ? "show" : ""} ${
+          isDarkMode ? "dark-mode" : "light-mode"
+        }`}
+      >
         <h2>{projet.title}</h2>
         <Caroussel pictures={projet.pictures} />
         {projet.description.map((item, index) => (

@@ -16,6 +16,7 @@ const Compétences = () => {
         "Utiliser des outils comme Flexbox et Grid pour organiser et structurer les mises en page.",
         "Appliquer des animations et des effets interactifs avec CSS.",
         "Travailler avec des préprocesseurs comme SASS pour écrire du CSS plus propre et modulaire.",
+        "Maîtriser l'intégration de composants réutilisables avec SASS pour une maintenance facilitée (mixin, fonts, colors...).",
       ],
     },
     {
@@ -30,6 +31,7 @@ const Compétences = () => {
         "Optimiser les performances des scripts pour garantir une exécution fluide et rapide",
         "Utiliser des API REST pour récupérer et envoyer des données en JSON",
         "Implémenter des concepts avancés comme les promesses et les async/await",
+        "Utiliser fetch pour effectuer des requêtes HTTP asynchrones et récupérer des données depuis des serveurs externes.",
       ],
     },
     {
@@ -45,6 +47,7 @@ const Compétences = () => {
         "Effectuer des requêtes API avec Axios ou Fetch et gérer les cycles de vie avec useEffect",
         "Gérer l'état local des composants avec useState",
         "Utiliser les Props pour passer des données entre les composants",
+        "Assurer la conformité SEO de l'application en utilisant Helmet et améliorer la qualité du code avec ESLint pour une meilleure lisibilité et maintenabilité.",
       ],
     },
     {
@@ -77,6 +80,7 @@ const Compétences = () => {
         "Bonne compréhension des principes de SEO on-page liés à la structure HTML.",
         "Respect des standards d'accessibilité web",
         "Utiliser des outils d'analyse d'accessibilité automatisée (comme WAVE)",
+        "Optimiser les performances des pages web en minifiant fichiers CSS et en appliquant le lazy loading des ressources.",
       ],
     },
     {
@@ -88,6 +92,7 @@ const Compétences = () => {
       competences: [
         "Implémenter un modèle logique de données conformément à la réglementation",
         "Mettre en œuvre des opérations CRUD de manière sécurisée",
+        "Mettre en place une architecture RESTful pour la création d'API robustes et évolutives avec Express.js.",
         "Stocker des données de manière sécurisée",
         "Intégrer MongoDB pour la gestion des bases de données NoSQL",
         "Utiliser bcrypt pour le hachage des mots de passe et la gestion sécurisée des authentifications",

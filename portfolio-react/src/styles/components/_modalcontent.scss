@@ -91,3 +91,9 @@
     }
   }
 }
+.light-mode .modal-content {
+  background: $white;
+  .itemDescription {
+    color: $black;
+  }
+}

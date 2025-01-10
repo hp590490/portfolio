@@ -35,11 +35,23 @@
       gap: 30px;
       li {
         cursor: pointer;
+        transition: 0.4s ease-in-out;
         &:hover {
           color: $green;
           transform: scale(1.05);
-          transition: 0.4s ease-in-out;
-          filter: brightness(150%);
+        }
+        .theme-toggle-btn {
+          background: #1a1a1a;
+          color: #a1a1aa;
+          padding: 10px 20px;
+          border-radius: 10px;
+          transform: translateY(-13%);
+          &:hover {
+            color: $green;
+          }
+          i {
+            font-size: 1.1rem;
+          }
         }
       }
     }
@@ -64,4 +76,21 @@
     color: $grey;
     filter: brightness(90%);
   }
+}
+body.dark-mode {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 2, 2, 1) 0%,
+    rgba(8, 11, 9, 1) 91%,
+    rgba(17, 23, 19, 1) 97%
+  );
+  color: $white;
+}
+body.light-mode {
+  background: $white;
+  color: $black;
+}
+#navigation.light-mode {
+  background: #323232;
+  color: $white;
 }
