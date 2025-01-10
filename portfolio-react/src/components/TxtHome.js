@@ -18,7 +18,7 @@ const Accueil = () => {
           <h3>
             Développeur <span className="surlignage">front-end junior</span> qui
             a pour but de <span className="surlignage">travailler</span> dans ce
-            milieu qui me <span className="surlignage">passione</span> depuis
+            milieu qui me <span className="surlignage">passionne</span> depuis
             plusieurs mois.
           </h3>
         </div>

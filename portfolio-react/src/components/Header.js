@@ -4,6 +4,8 @@ import { Link } from "react-scroll";
 const Header = () => {
   const [position, setPosition] = useState(window.scrollY);
   const [visible, setVisible] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(true);
+
   useEffect(() => {
     const handleScroll = () => {
       let moving = window.scrollY;
@@ -16,12 +18,29 @@ const Header = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   });
+  useEffect(() => {
+    // applique la classe pour le mode sombre ou clair à l'élément <body>
+    if (isDarkMode) {
+      document.body.classList.add("dark-mode");
+      document.body.classList.remove("light-mode");
+    } else {
+      document.body.classList.add("light-mode");
+      document.body.classList.remove("dark-mode");
+    }
+  }, [isDarkMode]);
 
+  const toggleTheme = () => {
+    setIsDarkMode(!isDarkMode);
+  };
   const cls = visible ? "visible" : "hidden";
 
   return (
     <header>
-      <nav id="navigation" className={cls}>
+      <nav
+        id="navigation"
+        className={`${cls} ${isDarkMode ? "dark-mode" : "light-mode"}`}
+      >
+        {" "}
         <div className="symbols-left">
           <span>&#62;_</span>
         </div>
@@ -80,6 +99,15 @@ const Header = () => {
               >
                 Contactez-moi !
               </Link>
+            </li>
+            <li>
+              <button onClick={toggleTheme} className="theme-toggle-btn">
+                {isDarkMode ? (
+                  <i class="fa-solid fa-sun"></i>
+                ) : (
+                  <i class="fa-regular fa-moon"></i>
+                )}
+              </button>{" "}
             </li>
           </ul>
         </div>
