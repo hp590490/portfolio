@@ -130,14 +130,9 @@ const Header = () => {
                 className="theme-toggle-btn"
               >
                 {isDarkMode ? (
-                  <i className="fa-solid fa-sun">
-                    <p className="accessibility">clair</p>
-                  </i>
+                  <i className="fa-solid fa-sun"></i>
                 ) : (
-                  <i className="fa-regular fa-moon">
-                    {" "}
-                    <p className="accessibility">sombre</p>
-                  </i>
+                  <i className="fa-regular fa-moon"> </i>
                 )}
               </button>{" "}
             </li>
