@@ -3,10 +3,19 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   padding: 20px 30px;
+  @media screen and (max-width: 950px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media screen and (max-width: 650px) {
+    grid-template-columns: 1fr;
+  }
   .card {
     border: 1px solid $grey;
     border-radius: 20px;
     height: 500px;
+    @media screen and (max-width: 650px) {
+      height: 400px;
+    }
     img {
       border-top-left-radius: 20px;
       border-top-right-radius: 20px;
@@ -16,9 +25,13 @@
     }
     .card-txt {
       padding: 10px;
+
       h3 {
         font-size: 1rem;
         padding: 20px 0;
+        @media screen and (max-width: 500px) {
+          font-size: 0.9rem;
+        }
       }
       .tags {
         display: flex;
@@ -28,17 +41,25 @@
         padding: 10px 0;
       }
       p {
-        color: $green;
-        border: 1px dashed $white;
+        color: $grey;
+        border: 1px dashed $grey;
         padding: 10px;
         font-size: 0.8rem;
         border-radius: 10px;
+        @media screen and (max-width: 600px) {
+          font-size: 0.6rem;
+        }
       }
       .modal-part {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 5px;
+        button {
+          &:hover {
+            color: $green;
+          }
+        }
         span {
           padding-top: 8px;
           display: inline-block; /* nécessaire pour les animations */

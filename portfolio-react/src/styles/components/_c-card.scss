@@ -49,6 +49,9 @@
           font-size: 1.2rem;
           align-self: center;
           margin-top: -50px;
+          @media screen and (max-width: 450px) {
+            padding: 0 10px;
+          }
         }
         p {
           font-size: 0.8rem;
@@ -72,6 +75,9 @@
         font-size: 1.2rem;
         position: relative;
         font-style: italic;
+        @media screen and (max-width: 500px) {
+          font-size: 0.9rem;
+        }
         &:after {
           content: "";
           position: absolute;
@@ -103,6 +109,12 @@
             position: absolute;
             left: 5px;
             top: -7px;
+          }
+          @media screen and (max-width: 500px) {
+            font-size: 0.8rem;
+          }
+          @media screen and (max-width: 430px) {
+            font-size: 0.7rem;
           }
         }
       }

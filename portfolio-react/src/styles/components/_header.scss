@@ -33,6 +33,9 @@
       display: flex;
       align-items: center;
       gap: 30px;
+      @media screen and (max-width: 1180px) {
+        font-size: 0.9rem;
+      }
       li {
         cursor: pointer;
         transition: 0.4s ease-in-out;
@@ -40,6 +43,7 @@
           color: $green;
           transform: scale(1.05);
         }
+
         .theme-toggle-btn {
           background: #1a1a1a;
           color: #a1a1aa;
@@ -93,4 +97,91 @@ body.light-mode {
 #navigation.light-mode {
   background: #323232;
   color: $white;
+}
+.navbar_burger {
+  width: 40px;
+  height: 40px;
+  color: inherit;
+  display: none;
+}
+.burger {
+  display: none;
+}
+@media screen and (max-width: 950px) {
+  .navbar_links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: -100vw;
+    bottom: 0;
+    width: 0;
+    height: 100vh;
+    padding: 2px;
+    background: #070a08;
+    visibility: hidden;
+    transition: all 0.8s ease-in-out;
+    &.light-mode {
+      background: $white;
+      color: $black;
+      visibility: hidden;
+    }
+  }
+  .show-nav .navbar_links {
+    right: 0;
+    width: 100vw;
+    visibility: visible;
+  }
+
+  .navbar-link {
+    display: block;
+    padding: 1.5rem;
+    font-size: 5vw;
+  }
+  .navbar_burger {
+    display: block;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+    height: 30px;
+  }
+  .burger-bar,
+  .burger-bar::before,
+  .burger-bar::after {
+    display: block;
+    width: 40px;
+    height: 3px;
+    position: relative;
+    border-radius: 3px;
+    background: $green;
+    transition: all 0.8s ease-in-out;
+  }
+
+  .burger-bar::before,
+  .burger-bar::after {
+    content: "";
+    position: absolute;
+    left: 0;
+  }
+  .burger-bar::before {
+    transform: translateY(-12px);
+  }
+  .burger-bar::after {
+    transform: translateY(12px);
+  }
+  .show-nav .burger-bar {
+    background: transparent;
+  }
+
+  .show-nav .burger-bar::before {
+    transform: rotate(45deg);
+  }
+  .show-nav .burger-bar::after {
+    transform: rotate(-45deg);
+  }
 }
