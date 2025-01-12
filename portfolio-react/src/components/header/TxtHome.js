@@ -1,5 +1,5 @@
 import React from "react";
-import Bloc from "./Bloc";
+import Bloc from "../commons/Bloc";
 import Coucou from "../assets/img/coucou.png";
 
 const Accueil = () => {

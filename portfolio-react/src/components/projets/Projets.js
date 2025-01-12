@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Bloc from "./Bloc";
+import Bloc from "../commons/Bloc";
 import Card from "./Card";
 import Filter from "./Filters";
 

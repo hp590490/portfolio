@@ -1,5 +1,5 @@
 import React from "react";
-import Bloc from "./Bloc";
+import Bloc from "../commons/Bloc";
 import Ccard from "./C-card";
 
 const Compétences = () => {

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Header from "../components/Header";
-import TxtHome from "../components/TxtHome";
+import Header from "../components/header/Header";
+import TxtHome from "../components/header/TxtHome";
 import Loading from "../components/Loading";
-import Projets from "../components/Projets";
-import Competences from "../components/Competences";
+import Projets from "../components/projets/Projets";
+import Competences from "../components/competences/Competences";
 import About from "../components/About";
-import Contact from "../components/Contact";
+import Contact from "../components/contact/Contact";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 0);
+    }, 1200);
     return () => clearTimeout(timer);
   }, []);
   return (

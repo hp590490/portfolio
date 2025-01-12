@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ContactForm from "./ContactForm";
-import Bloc from "./Bloc";
+import Bloc from "../commons/Bloc";
 
 const Contact = () => {
   const [copied, setCopied] = useState(false);
