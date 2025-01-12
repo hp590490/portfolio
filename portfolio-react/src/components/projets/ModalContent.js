@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Caroussel from "./Caroussel";
+import PropTypes from "prop-types";
 
 const ModalContent = ({ closeModal, id, data }) => {
   const [projet, setProjet] = useState(null);
@@ -53,5 +54,9 @@ const ModalContent = ({ closeModal, id, data }) => {
     </>
   );
 };
-
+ModalContent.propTypes = {
+  closeModal: PropTypes.func.isRequired,
+  id: PropTypes.string.isRequired,
+  data: PropTypes.array.isRequired,
+};
 export default ModalContent;

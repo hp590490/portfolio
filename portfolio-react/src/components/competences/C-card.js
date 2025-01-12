@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
+
 const Ccard = ({ images, title, competences }) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -33,5 +35,9 @@ const Ccard = ({ images, title, competences }) => {
     </div>
   );
 };
-
+Ccard.propTypes = {
+  images: PropTypes.array.isRequired,
+  title: PropTypes.string.isRequired,
+  competences: PropTypes.array.isRequired,
+};
 export default Ccard;

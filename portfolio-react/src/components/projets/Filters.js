@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Filter = ({ onFilterChange, activeFilter }) => {
   const filters = ["CSS/SASS", "JavaScript", "React", "SEO/Développement"];
@@ -23,5 +24,8 @@ const Filter = ({ onFilterChange, activeFilter }) => {
     </div>
   );
 };
-
+Filter.propTypes = {
+  onFilterChange: PropTypes.func.isRequired,
+  activeFilter: PropTypes.string.isRequired,
+};
 export default Filter;

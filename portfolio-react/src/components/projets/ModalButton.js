@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import ModalContent from "./ModalContent";
+import PropTypes from "prop-types";
 
 const ModalButton = ({ id, data }) => {
   const [showModal, setShowModal] = useState(false);
@@ -35,5 +36,8 @@ const ModalButton = ({ id, data }) => {
     </>
   );
 };
-
+ModalButton.propTypes = {
+  id: PropTypes.string.isRequired,
+  data: PropTypes.array.isRequired,
+};
 export default ModalButton;

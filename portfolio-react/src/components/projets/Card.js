@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ModalButton from "./ModalButton";
+import PropTypes from "prop-types";
 
 const Card = ({ activeFilter }) => {
   const [data, setData] = useState([]);
@@ -51,5 +52,7 @@ const Card = ({ activeFilter }) => {
     </div>
   );
 };
-
+Card.propTypes = {
+  activeFilter: PropTypes.string,
+};
 export default Card;

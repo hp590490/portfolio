@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Hamburger from "hamburger-react";
+import PropTypes from "prop-types";
 
 const HamburgerComponent = ({ toggleMenu }) => {
   const [open, setOpen] = useState(false);
@@ -16,4 +17,7 @@ const HamburgerComponent = ({ toggleMenu }) => {
   );
 };
 
+HamburgerComponent.propTypes = {
+  toggleMenu: PropTypes.func.isRequired,
+};
 export default HamburgerComponent;
