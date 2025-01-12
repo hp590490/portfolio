@@ -46,14 +46,18 @@ const Accueil = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github">
+                <p className="accessibility">github</p>
+              </i>
             </a>
             <a
               href="https://www.linkedin.com/in/hugo-plastre-a68217212/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa-brands fa-linkedin-in"></i>
+              <i className="fa-brands fa-linkedin-in">
+                <p className="accessibility">linkedin</p>
+              </i>
             </a>
           </div>
           <div className="scroll">

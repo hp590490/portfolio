@@ -22,7 +22,7 @@
     cursor: pointer;
     font-size: 1rem;
     transition: 0.4s ease-in-out;
-    color: $grey;
+    color: $green;
     background: none;
     border: 1px solid $grey;
     &:hover {
@@ -41,6 +41,6 @@
   }
   .active {
     background: $grey;
-    color: $black;
+    color: $green;
   }
 }
