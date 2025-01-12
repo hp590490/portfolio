@@ -6,7 +6,7 @@ import { HelmetProvider } from "react-helmet-async";
 const App = () => {
   return (
     <HelmetProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
