@@ -1,5 +1,8 @@
 #projets-content {
   margin-top: 150px;
+  @media screen and (max-width: 810px) {
+    margin-top: 80px;
+  }
   h2 {
     margin: 60px auto;
   }

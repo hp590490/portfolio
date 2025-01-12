@@ -3,6 +3,13 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
+  @media screen and (max-width: 810px) {
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+    gap: 5px;
+  }
   button {
     padding: 15px 35px;
     border-radius: 40px;
@@ -22,6 +29,14 @@
       color: $black;
       background: $grey;
       filter: brightness(150%);
+    }
+    @media screen and (max-width: 1000px) {
+      font-size: 0.8rem;
+      padding: 10px 25px;
+    }
+    @media screen and (max-width: 500px) {
+      padding: 10px 25px;
+      width: 180px;
     }
   }
   .active {

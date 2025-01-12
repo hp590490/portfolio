@@ -7,6 +7,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    @media screen and (max-width: 850px) {
+      grid-template-columns: 1fr;
+    }
     .about-bloc,
     .skills-bloc {
       width: 100%;
@@ -23,7 +26,10 @@
         font-size: 0.8rem;
         font-weight: normal;
         line-height: 3rem;
-
+        @media screen and (max-width: 850px) {
+          font-size: 0.7rem;
+          padding: 0 10px;
+        }
         .surlignageblue {
           color: #60a5fa;
         }
@@ -41,6 +47,10 @@
           align-self: self-start;
           color: $grey;
           font-size: 0.9rem;
+          @media screen and (max-width: 850px) {
+            font-size: 0.8rem;
+            padding-left: 10px;
+          }
         }
       }
     }
@@ -64,13 +74,18 @@
         .skill {
           margin-bottom: 35px;
           padding: 0px 15px;
+
           h4 {
             margin-bottom: 20px;
             font-size: 1.1rem;
             font-weight: bold;
-            color: $white;
+            color: $grey;
             font-style: italic;
             font-family: $font2;
+            @media screen and (max-width: 850px) {
+              font-size: 0.9rem;
+              padding: 0px;
+            }
           }
 
           .progress-bar {

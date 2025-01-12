@@ -10,6 +10,7 @@
     "async": "^3.2.6",
     "classnames": "^2.5.1",
     "gsap": "^3.12.5",
+    "hamburger-react": "^2.5.2",
     "helmet": "^8.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

@@ -6,6 +6,9 @@
   .blocs-contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    @media screen and (max-width: 850px) {
+      grid-template-columns: 1fr;
+    }
     gap: 20px;
     .form-bloc,
     .coordonnées-bloc {
@@ -19,7 +22,7 @@
       flex-direction: column;
       height: 100%;
       text-align: left;
-      color: #ceced2;
+      color: grey;
       .top-coordo,
       .middle-coordo {
         display: flex;
@@ -56,7 +59,7 @@
           a {
             text-decoration: none;
             &:visited {
-              color: #ceced2;
+              color: grey;
             }
           }
           &:hover {
@@ -73,7 +76,7 @@
         p {
           font-size: 0.9rem;
           text-align: left;
-          color: $grey;
+          color: grey;
           span {
             background: $green;
             width: 12px;

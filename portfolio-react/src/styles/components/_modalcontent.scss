@@ -12,7 +12,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 850px;
+  height: auto;
   width: 50%;
   background: $black;
   border-radius: 20px;
@@ -20,7 +20,15 @@
   opacity: 0;
   transform: translateY(-50px);
   transition: opacity 0.3s ease-out, transform 0.3s ease-out;
-
+  @media screen and (max-width: 1450px) {
+    width: 70%;
+  }
+  @media screen and (max-width: 1000px) {
+    padding: 0px 20px;
+  }
+  // @media screen and (max-width: 450px) {
+  //   height: 100vh;
+  // }
   &.show {
     opacity: 1;
     transform: translate(-50%, -50%) translateY(0);
@@ -28,6 +36,13 @@
   h2 {
     margin-top: 50px;
     color: $green;
+    @media screen and (max-width: 900px) {
+      font-size: 1rem;
+    }
+    @media screen and (max-width: 500px) {
+      font-size: 0.8rem;
+      margin-top: 20px;
+    }
   }
   .closebtn {
     position: absolute;
@@ -38,6 +53,11 @@
     color: $green;
     border-radius: 20px;
     font-size: 1.2rem;
+    @media screen and (max-width: 500px) {
+      font-size: 0.8rem;
+      right: 15px;
+      top: 0;
+    }
   }
   .logolangages {
     display: flex;
@@ -57,12 +77,27 @@
     margin: auto 50px;
     line-height: 1.8;
     font-size: 1rem;
+    @media screen and (max-width: 1000px) {
+      margin: 0;
+    }
   }
 
   .itemDescription li {
     position: relative;
     padding-left: 20px;
     margin-bottom: 10px;
+    @media screen and (max-width: 1250px) {
+      font-size: 0.9rem;
+    }
+    @media screen and (max-width: 1105px) {
+      font-size: 0.8rem;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 0.7rem;
+    }
+    @media screen and (max-width: 450px) {
+      font-size: 0.6rem;
+    }
   }
 
   .itemDescription li::before {
@@ -72,10 +107,20 @@
     position: absolute;
     left: 0;
     top: -8px;
+    @media screen and (max-width: 1250px) {
+      top: -11px;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 1.2rem;
+      top: -8px;
+    }
   }
   .repo {
     margin-top: 30px;
-
+    margin-bottom: 30px;
+    @media screen and (max-width: 500px) {
+      margin-top: 0;
+    }
     a {
       color: $green;
       margin-top: 15px;
@@ -87,6 +132,12 @@
       letter-spacing: 0.5px;
       &:hover {
         border-bottom: 2px solid transparent;
+      }
+      @media screen and (max-width: 1105px) {
+        font-size: 0.9rem;
+      }
+      @media screen and (max-width: 500px) {
+        font-size: 0.7rem;
       }
     }
   }
