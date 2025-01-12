@@ -47,7 +47,7 @@ const Accueil = () => {
               rel="noopener noreferrer"
             >
               <i className="fa-brands fa-github">
-                <p className="accessibility">github</p>
+                <p className="accessibility"></p>
               </i>
             </a>
             <a
@@ -56,7 +56,7 @@ const Accueil = () => {
               rel="noopener noreferrer"
             >
               <i className="fa-brands fa-linkedin-in">
-                <p className="accessibility">linkedin</p>
+                <p className="accessibility"></p>
               </i>
             </a>
           </div>
