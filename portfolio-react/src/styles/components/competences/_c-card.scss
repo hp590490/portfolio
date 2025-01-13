@@ -75,9 +75,13 @@
         font-size: 1.2rem;
         position: relative;
         font-style: italic;
+        @media screen and (max-width: 1440px) {
+          font-size: 1.05rem;
+        }
         @media screen and (max-width: 500px) {
           font-size: 0.9rem;
         }
+
         &:after {
           content: "";
           position: absolute;
@@ -110,7 +114,22 @@
             left: 5px;
             top: -7px;
           }
-          @media screen and (max-width: 785px) {
+          @media screen and (max-width: 1420px) {
+            font-size: 0.75rem;
+          }
+          @media screen and (max-width: 1300px) {
+            font-size: 0.7rem;
+          }
+          @media screen and (max-width: 1299px) {
+            font-size: 0.8rem;
+          }
+          @media screen and (max-width: 760px) {
+            font-size: 0.7rem;
+          }
+          @media screen and (max-width: 700px) {
+            font-size: 0.9rem;
+          }
+          @media screen and (max-width: 465px) {
             font-size: 0.7rem;
           }
         }
