@@ -17,11 +17,10 @@ const Accueil = () => {
               <span id="underligne1">Hugo PLASTRE</span>
             </h2>
             <h3>
-              Développeur <span className="surlignage">front-end junior</span>{" "}
-              qui a pour but de <span className="surlignage">travailler</span>{" "}
-              dans ce milieu qui me{" "}
-              <span className="surlignage">passionne</span> depuis plusieurs
-              mois.
+              Développeur <span className="surlignage">front-end junior</span> à
+              la recherche d&#39;une{" "}
+              <span className="surlignage">opportunité</span> dans ce milieu qui
+              me <span className="surlignage">passionne</span>.
             </h3>
           </div>
           <div className="buttons-accueil">

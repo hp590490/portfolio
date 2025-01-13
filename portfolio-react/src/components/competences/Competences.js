@@ -59,7 +59,7 @@ const Compétences = () => {
       competences: [
         "Suivre le déroulement du projet grâce à un outil de gestion de projet",
         "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
-        "Découper une fonctionnalités en tâches pour préparer le développement",
+        "Découper une fonctionnalité en tâches pour préparer le développement",
         "Présenter la solution technique",
         "Mettre en place une méthode de veille technologique",
         "Versionner son projet avec Git et Github",

@@ -22,7 +22,7 @@ const ModalButton = ({ id, data }) => {
   return (
     <>
       <button onClick={() => setShowModal(true)}>
-        Cliquez ici pour en savoir plus !
+        Clique ici pour en savoir plus !
       </button>
       {showModal &&
         createPortal(

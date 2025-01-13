@@ -84,7 +84,7 @@ const About = () => {
               <p>03</p>
               <h3>
                 Spécialisé en développement front-end et tout ce qui
-                lIt&#39;englobe (
+                l&#39;englobe (
                 <span className="surlignagepurple">
                   accessibilité, performances, gestion de projet...
                 </span>
@@ -95,7 +95,7 @@ const About = () => {
               <p>04</p>
               <h3>
                 Passionné par la programmation et le développement web,
-                jIt&#39;aime relever des{" "}
+                j&#39;aime relever des{" "}
                 <span className="surlignageblue">défis techniques</span>,
                 concevoir des{" "}
                 <span className="surlignagepurple">solutions innovantes</span>,
@@ -108,11 +108,11 @@ const About = () => {
               <p>05</p>
               <h3>
                 Que ce soit en équipe ou en autonomie, je
-                <span className="surlignageblue"> mIt&#39;adapte</span>{" "}
-                facilement aux différents modes de travail.{" "}
+                <span className="surlignageblue"> m&#39;adapte</span> facilement
+                aux différents modes de travail.{" "}
                 <span className="surlignagegreen">Déterminé et rigoureux</span>,
-                je mIt&#39;efforce toujours dIt&#39;atteindre les objectifs
-                fixés tout en apportant une{" "}
+                je m&#39;efforce toujours d&#39;atteindre les objectifs fixés
+                tout en apportant une{" "}
                 <span className="surlignageyellow">énergie positive</span> au
                 projet.
               </h3>
@@ -140,7 +140,6 @@ const About = () => {
                 </div>
               </div>
             ))}
-            <p>Barres de progression en constante évolution...</p>
           </div>
         </Bloc>
       </div>
