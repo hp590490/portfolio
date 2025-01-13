@@ -12,14 +12,16 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: auto;
+  height: 90vh;
   width: 50%;
   background: $black;
-  border-radius: 20px;
+  border-radius: 5px;
   color: $green;
   opacity: 0;
   transform: translateY(-50px);
   transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  overflow-y: auto;
+
   @media screen and (max-width: 1450px) {
     width: 70%;
   }

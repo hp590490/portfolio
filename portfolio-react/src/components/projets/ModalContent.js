@@ -33,23 +33,25 @@ const ModalContent = ({ closeModal, id, data }) => {
     <>
       <div onClick={handleClose} className="modal-overlay"></div>
       <div className={`modal-content ${modalVisible ? "show" : ""}`}>
-        <h2>{projet.title}</h2>
-        <Caroussel pictures={projet.pictures} />
-        {projet.description.map((item, index) => (
-          <ul className="itemDescription" key={index}>
-            <li>{item}</li>
-          </ul>
-        ))}
+        <div className="content-test">
+          <h2>{projet.title}</h2>
+          <Caroussel pictures={projet.pictures} />
+          {projet.description.map((item, index) => (
+            <ul className="itemDescription" key={index}>
+              <li>{item}</li>
+            </ul>
+          ))}
 
-        <div className="repo">
-          <a href={projet.repo} target="_blank" rel="noopener noreferrer">
-            Repository GitHub
-          </a>
+          <div className="repo">
+            <a href={projet.repo} target="_blank" rel="noopener noreferrer">
+              Repository GitHub
+            </a>
+          </div>
+
+          <button onClick={handleClose} className="closebtn">
+            <i className="fa-regular fa-circle-xmark"></i>
+          </button>
         </div>
-
-        <button onClick={handleClose} className="closebtn">
-          <i className="fa-regular fa-circle-xmark"></i>
-        </button>
       </div>
     </>
   );
