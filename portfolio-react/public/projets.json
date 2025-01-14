@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "title": "Booki - agence de voyage",
+    "title": "Booki - Agence de voyage",
     "cover": "/img/booki.png",
     "description": [
       "Intégration responsive de la page d'accueil d'une agence de voyage (mobile, tablette, desktop).",
@@ -20,7 +20,7 @@
   },
   {
     "id": "2",
-    "title": "Gaming Campus - école gaming",
+    "title": "Gaming Campus - École gaming",
     "cover": "/img/campus.png",
     "description": [
       "Reproduction fidèle du design final, sans maquettes interactives type Figma. Démonstration d'autonomie et de résolution de problèmes en travaillant sans outils interactifs.",
@@ -41,7 +41,7 @@
   },
   {
     "id": "3",
-    "title": "The Resto - restaurant gastronomique",
+    "title": "The Resto - Restaurant gastronomique",
     "cover": "/img/resto.png",
     "description": [
       "Création d'une page d'accueil pour un restaurant gastronomique, avec un design classe et épuré.",
@@ -113,7 +113,7 @@
   },
   {
     "id": "6",
-    "title": "Application web de location immobilière",
+    "title": "Kasa - Location immobilière",
     "cover": "/img/kasa.png",
     "description": [
       "Développement d'une application web en React, avec gestion et affichage dynamique des données.",
