@@ -51,7 +51,7 @@ const About = () => {
       color:
         "linear-gradient(90deg, rgba(54,92,48,1) 0%, rgba(28,98,51,1) 51%, rgba(28,209,89,1) 88%)",
       images: [
-        "https://ugeek.github.io/blog/images-blog/node.png",
+        "https://img.icons8.com/fluent/512/node-js.png",
         "https://raw.githubusercontent.com/NX211/homer-icons/master/svg/mongodb.svg",
       ],
     },

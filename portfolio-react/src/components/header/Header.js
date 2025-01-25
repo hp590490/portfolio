@@ -66,6 +66,7 @@ const Header = () => {
                 spy={true}
                 className="navbar_link"
                 onClick={handleShowLinks}
+                href="#accueil-content"
               >
                 Accueil
               </Link>
@@ -79,6 +80,7 @@ const Header = () => {
                 activeClass="nav-active"
                 className="navbar_link"
                 onClick={handleShowLinks}
+                href="#projets-content"
               >
                 Mes projets
               </Link>
@@ -92,6 +94,7 @@ const Header = () => {
                 activeClass="nav-active"
                 className="navbar_link"
                 onClick={handleShowLinks}
+                href="#competences-content"
               >
                 Mes compétences
               </Link>
@@ -105,6 +108,7 @@ const Header = () => {
                 activeClass="nav-active"
                 className="navbar_link"
                 onClick={handleShowLinks}
+                href="#about-content"
               >
                 À propos de moi
               </Link>
@@ -118,6 +122,7 @@ const Header = () => {
                 activeClass="nav-active"
                 className="navbar_link"
                 onClick={handleShowLinks}
+                href="#contact-content"
               >
                 Contactez-moi !
               </Link>

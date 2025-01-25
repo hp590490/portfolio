@@ -85,7 +85,7 @@ const Compétences = () => {
     },
     {
       images: [
-        "https://ugeek.github.io/blog/images-blog/node.png",
+        "https://img.icons8.com/fluent/512/node-js.png",
         "https://raw.githubusercontent.com/NX211/homer-icons/master/svg/mongodb.svg",
       ],
       title: "Développement back-end avec NodeJS",
