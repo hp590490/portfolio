@@ -68,8 +68,7 @@ const About = () => {
               <h3>
                 Hello ! Je suis{" "}
                 <span className="surlignagegreen">Hugo PLASTRE </span>
-                développeur web
-                <span className="surlignageblue"> front-end</span> junior,
+                développeur web junior,
               </h3>
             </div>
             <div className="line-about">
