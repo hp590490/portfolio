@@ -44,7 +44,6 @@ body {
   text-align: center;
   font-family: $font1;
   transition: background-color 0.3s ease, color 0.3s ease;
-
   background: rgb(2, 2, 2);
   background: linear-gradient(
     90deg,
@@ -59,9 +58,6 @@ body {
     padding: 0 80px;
   }
   @media screen and (max-width: 1060px) {
-    padding: 0 40px;
-  }
-  @media screen and (max-width: 950px) {
     padding: 0 20px;
   }
 }
