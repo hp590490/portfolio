@@ -7,21 +7,22 @@
     text-align: left;
     padding-bottom: 10px;
     padding-top: 20px;
-    color: $white;
     font-size: 0.9rem;
     font-weight: bold;
   }
   input {
     border-radius: 5px;
+    border: 1px solid #cacace;
     height: 40px;
-    background: rgb(39, 39, 42);
+    background: #cacace;
     transition: 0.4s ease-in-out;
-    color: $white;
+    color: $black;
     padding-left: 5px;
+    font-weight: bold;
     &:focus {
       padding-left: 5px;
       font-size: 1rem;
-      background: rgb(39, 39, 42);
+      background: #cacace;
 
       &::placeholder {
         padding-left: 0;
@@ -35,14 +36,17 @@
     }
   }
   textarea {
-    background: rgb(39, 39, 42);
+    background: #cacace;
     border-radius: 5px;
     height: 150px;
     margin-bottom: 20px;
-    color: $white;
+    color: $black;
     transition: 0.4s ease-in-out;
     resize: none;
     overflow: auto;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: 1px solid #cacace;
     &:focus {
       padding-left: 5px;
       font-size: 1rem;
@@ -62,19 +66,20 @@
     }
   }
   .submit-btn {
-    background: #070908;
-    color: $green;
-    border: 1px solid $green;
+    color: $black;
+    background: #cacace;
+    border: 1px solid #cacace;
     margin-bottom: 30px;
     font-weight: bold;
     font-size: 1rem;
     height: 50px;
     cursor: pointer;
     transition: 0.4s ease-in-out;
+
     &:hover {
-      background: $green;
-      color: #070908;
+      background: $black;
       border: none;
+      color: #cacace;
     }
   }
   p {

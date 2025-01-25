@@ -39,10 +39,12 @@ export const ContactForm = () => {
         <label>Nom</label>
         <input type="text" name="randomName123" placeholder="Votre nom" />
         <label>Email</label>
+
         <input
           type="email"
-          name="user_email"
+          name="no-autofill-email"
           placeholder="Votre.email@exemple.com"
+          autoComplete="new-password"
         />
         <label>Message</label>
         <textarea name="message" placeholder="Votre message..." />
