@@ -53,12 +53,15 @@ body {
     rgba(17, 23, 19, 1) 97%
   );
   padding: 0 150px;
-  overflow: hidden;
+  overflow-x: hidden;
   color: $white;
   @media screen and (max-width: 1150px) {
     padding: 0 80px;
   }
   @media screen and (max-width: 1060px) {
+    padding: 0 40px;
+  }
+  @media screen and (max-width: 950px) {
     padding: 0 20px;
   }
 }
