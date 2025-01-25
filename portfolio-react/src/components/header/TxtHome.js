@@ -44,6 +44,7 @@ const Accueil = () => {
               href="https://github.com/hp590490"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Lien vers mon profil GitHub"
             >
               <i className="fa-brands fa-github">
                 <p className="accessibility"></p>
@@ -53,6 +54,7 @@ const Accueil = () => {
               href="https://www.linkedin.com/in/hugo-plastre-a68217212/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Lien vers mon profil LinkedIn"
             >
               <i className="fa-brands fa-linkedin-in">
                 <p className="accessibility"></p>

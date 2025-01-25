@@ -27,7 +27,7 @@ const Ccard = ({ images, title, competences }) => {
 
           <ul>
             {competences.map((item, index) => (
-              <li key={index}>{item}</li>
+              <li key={index} dangerouslySetInnerHTML={{ __html: item }}></li>
             ))}
           </ul>
         </div>
