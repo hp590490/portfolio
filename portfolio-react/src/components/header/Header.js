@@ -128,6 +128,7 @@ const Header = () => {
                   toggleTheme();
                 }}
                 className="theme-toggle-btn"
+                aria-label="Changer de thème"
               >
                 {isDarkMode ? (
                   <i className="fa-solid fa-sun"></i>
@@ -139,7 +140,7 @@ const Header = () => {
           </ul>
           <div className="burger" onClick={handleShowLinks}>
             {" "}
-            <button className="navbar-burger">
+            <button className="navbar-burger" aria-label="Bouton Burger Mobile">
               <span
                 className={`burger-bar ${
                   isDarkMode ? "dark-mode" : "light-mode"

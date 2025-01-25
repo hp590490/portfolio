@@ -18,12 +18,12 @@ const Ccard = ({ images, title, competences }) => {
             ))}
           </div>
           <div className="front-txt">
-            <h4>{title}</h4>
+            <h3>{title}</h3>
             <p>Et si tu survolais la carte ?</p>
           </div>
         </div>
         <div className="back">
-          <h4>{title}</h4>
+          <h3>{title}</h3>
 
           <ul>
             {competences.map((item, index) => (
