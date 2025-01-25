@@ -138,7 +138,7 @@
   },
   {
     "id": "7",
-    "title": "Mon Vieux Grimoir : site de notation de livres",
+    "title": "Mon Vieux Grimoire : site de notation de livres",
     "cover": "/img/back.png",
     "description": [
       "Développement d'une API backend pour un site de notation de livres avec système d'authentification sécurisé (bcrypt, JWT).",
@@ -162,7 +162,7 @@
   },
   {
     "id": "8",
-    "title": "Menu Maker par Qwenta : plannification de son développement",
+    "title": "Menu Maker par Qwenta : planification de son développement",
     "cover": "/img/plan.png",
     "description": [
       "Rédaction des spécifications techniques pour le projet de développement d'un site web.",
