@@ -47,7 +47,7 @@ const About = () => {
     },
     {
       name: "NodeJS - MongoDB",
-      level: 50,
+      level: 70,
       color:
         "linear-gradient(90deg, rgba(54,92,48,1) 0%, rgba(28,98,51,1) 51%, rgba(28,209,89,1) 88%)",
       images: [
