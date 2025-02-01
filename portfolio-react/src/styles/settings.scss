@@ -3,14 +3,14 @@
   src: url(../assets/fonts/Inter-Regular.woff2) format("woff2");
   font-display: swap;
 }
-$font1: Inter, serif;
+$font1: Inter, sans-serif;
 
 @font-face {
   font-family: "Poppins";
   src: url(../assets/fonts/Poppins-Medium.woff2) format("woff2");
   font-display: swap;
 }
-$font2: Poppins, serif;
+$font2: Poppins, sans-serif;
 
 $white: #ffffff;
 $black: #21201e;
@@ -39,7 +39,9 @@ a {
   text-decoration: none; /* Enlève le soulignement pour tous les liens */
   color: inherit; /* Hérite de la couleur du texte environnant */
 }
-
+h3 {
+  font-family: "Inter", sans-serif;
+}
 body {
   text-align: center;
   font-family: $font1;
