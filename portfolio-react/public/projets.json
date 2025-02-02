@@ -203,7 +203,8 @@
     "pictures": [
       "./img/portfolio-1.png",
       "./img/portfolio-2.png",
-      "./img/portfolio-3.png"
+      "./img/portfolio-3.png",
+      "./img/portfolio-4.png"
     ],
     "repo": "https://github.com/hp590490/portfolio"
   }
