@@ -16,12 +16,12 @@ const Accueil = () => {
               Je <span className="surlignage">suis</span>{" "}
               <span id="underligne1">Hugo PLASTRE</span>
             </h2>
-            <h3>
-              Développeur <span className="surlignage">web junior</span> à la
-              recherche d&#39;une{" "}
-              <span className="surlignage">opportunité</span> dans ce milieu qui
-              me <span className="surlignage">passionne</span>.
-            </h3>
+            <h3
+              dangerouslySetInnerHTML={{
+                __html:
+                  'Développeur <span class="surlignage">web junior</span> à la recherche d\'une <span class="surlignage">opportunité</span> dans ce milieu qui me <span class="surlignage">passionne</span>.',
+              }}
+            />
           </div>
           <div className="buttons-accueil">
             <button
