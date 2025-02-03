@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Booki - Agence de voyage",
-    "cover": "/img/booki.png",
+    "cover": "/img/booki.webp",
     "description": [
       "Intégration responsive de la page d'accueil d'une agence de voyage (mobile, tablette, desktop).",
       "Développement manuel en HTML et CSS à partir de maquettes Figma.",
@@ -15,13 +15,17 @@
       "Intégrer du contenu conformément à une maquette avec HTML et CSS",
       "Implémenter une interface responsive avec HTML et CSS"
     ],
-    "pictures": ["./img/booki-1.png", "./img/booki-2.png", "./img/booki-3.png"],
+    "pictures": [
+      "./img/booki-1.webp",
+      "./img/booki-2.webp",
+      "./img/booki-3.webp"
+    ],
     "repo": "https://github.com/hp590490/projet1-Booki"
   },
   {
     "id": "2",
     "title": "Gaming Campus - École gaming",
-    "cover": "/img/campus.png",
+    "cover": "/img/campus.webp",
     "description": [
       "Reproduction fidèle du design final, sans maquettes interactives type Figma. Démonstration d'autonomie et de résolution de problèmes en travaillant sans outils interactifs.",
       "Développement manuel en HTML/CSS, avec une attention particulière aux détails et à la conformité au design fourni.",
@@ -33,16 +37,16 @@
       "Implémenter une interface responsive avec HTML et CSS"
     ],
     "pictures": [
-      "./img/gaming-1.png",
-      "./img/gaming-2.png",
-      "./img/gaming-3.png"
+      "./img/gaming-1.webp",
+      "./img/gaming-2.webp",
+      "./img/gaming-3.webp"
     ],
     "repo": "https://github.com/hp590490/gamingcampus"
   },
   {
     "id": "3",
     "title": "The Resto - Restaurant gastronomique",
-    "cover": "/img/resto.png",
+    "cover": "/img/resto.webp",
     "description": [
       "Création d'une page d'accueil pour un restaurant gastronomique, avec un design classe et épuré.",
       "Utilisation de SASS pour une organisation optimisée et modulaire du code CSS.",
@@ -56,17 +60,17 @@
       "Implémenter une interface responsive avec HTML et CSS"
     ],
     "pictures": [
-      "./img/resto-1.png",
-      "./img/resto-2.png",
-      "./img/resto-3.png",
-      "./img/resto-4.png",
-      "./img/resto-5.png"
+      "./img/resto-1.webp",
+      "./img/resto-2.webp",
+      "./img/resto-3.webp",
+      "./img/resto-4.webp",
+      "./img/resto-5.webp"
     ]
   },
   {
     "id": "4",
     "title": "Sophie Bluel - Architecte d'intérieur",
-    "cover": "/img/sophie.png",
+    "cover": "/img/sophie.webp",
     "description": [
       "Développement d'une page de présentation dynamique des travaux d'une architecte d'intérieur en manipulant le DOM avec JavaScript.",
       "Création from scratch d'une page de connexion sécurisée pour l'administrateur du site.",
@@ -80,18 +84,18 @@
       "Implémenter une interface responsive avec HTML et CSS"
     ],
     "pictures": [
-      "./img/sophie-1.png",
-      "./img/sophie-2.png",
-      "./img/sophie-3.png",
-      "./img/sophie-4.png",
-      "./img/sophie-5.png"
+      "./img/sophie-1.webp",
+      "./img/sophie-2.webp",
+      "./img/sophie-3.webp",
+      "./img/sophie-4.webp",
+      "./img/sophie-5.webp"
     ],
     "repo": "https://github.com/hp590490/ProjetJS_SophieBruel"
   },
   {
     "id": "5",
     "title": "Nina Carducci - Photographe",
-    "cover": "/img/nina.png",
+    "cover": "/img/nina.webp",
     "description": [
       "Optimisation des performances d'un site web grâce à des améliorations sur les images, la sémantique du code et les pratiques de développement.",
       "Mise en œuvre de principes avancés d'accessibilité web (WAVE) et d'optimisation SEO (Google Rich Snippet).",
@@ -104,17 +108,17 @@
       "Implémenter une interface responsive avec HTML et CSS"
     ],
     "pictures": [
-      "./img/nina-1.png",
-      "./img/nina-2.png",
-      "./img/nina-3.png",
-      "./img/nina-4.png"
+      "./img/nina-1.webp",
+      "./img/nina-2.webp",
+      "./img/nina-3.webp",
+      "./img/nina-4.webp"
     ],
     "repo": "https://github.com/hp590490/NinaCarducci"
   },
   {
     "id": "6",
     "title": "Kasa - Location immobilière",
-    "cover": "/img/kasa.png",
+    "cover": "/img/kasa.webp",
     "description": [
       "Développement d'une application web en React, avec gestion et affichage dynamique des données.",
       "Mise en œuvre de composants réutilisables et modulaires pour une maintenance simplifiée.",
@@ -129,17 +133,17 @@
       "Implémenter une interface responsive avec HTML et CSS"
     ],
     "pictures": [
-      "./img/kasa-1.png",
-      "./img/kasa-2.png",
-      "./img/kasa-3.png",
-      "./img/kasa-4.png"
+      "./img/kasa-1.webp",
+      "./img/kasa-2.webp",
+      "./img/kasa-3.webp",
+      "./img/kasa-4.webp"
     ],
     "repo": "https://github.com/hp590490/reactOC"
   },
   {
     "id": "7",
     "title": "Mon Vieux Grimoire : site de notation de livres",
-    "cover": "/img/back.png",
+    "cover": "/img/back.webp",
     "description": [
       "Développement d'une API backend pour un site de notation de livres avec système d'authentification sécurisé (bcrypt, JWT).",
       "Implémentation de middlewares pour la gestion des autorisations et des requêtes.",
@@ -153,17 +157,17 @@
       "Implémenter une interface responsive avec HTML et CSS"
     ],
     "pictures": [
-      "./img/back-1.png",
-      "./img/back-2.png",
-      "./img/back-3.png",
-      "./img/back-4.png"
+      "./img/back-1.webp",
+      "./img/back-2.webp",
+      "./img/back-3.webp",
+      "./img/back-4.webp"
     ],
     "repo": "https://github.com/hp590490/newprojetlivres"
   },
   {
     "id": "8",
     "title": "Menu Maker par Qwenta : planification de son développement",
-    "cover": "/img/plan.png",
+    "cover": "/img/plan.webp",
     "description": [
       "Rédaction des spécifications techniques pour le projet de développement d'un site web.",
       "Application de la méthode agile/scrum pour la gestion du projet.",
@@ -176,18 +180,18 @@
       "Implémenter une interface responsive avec HTML et CSS"
     ],
     "pictures": [
-      "./img/plan-3.png",
-      "./img/plan-4.png",
-      "./img/plan-5.png",
-      "./img/plan-6.png",
-      "./img/plan-2.png"
+      "./img/plan-3.webp",
+      "./img/plan-4.webp",
+      "./img/plan-5.webp",
+      "./img/plan-6.webp",
+      "./img/plan-2.webp"
     ],
     "repo": "https://github.com/hp590490/qwenta"
   },
   {
     "id": "9",
     "title": "Portfolio developpeur web junior - Hugo PLASTRE",
-    "cover": "/img/portfolio.png",
+    "cover": "/img/portfolio.webp",
     "description": [
       "Affichage dynamique de données (projets, informations personnelles, etc.) en utilisant React.",
       "Capacité de restitution claire et dynamique des projets réalisés, permettant de les présenter efficacement sur une page web originale et personnalisée.",
@@ -201,10 +205,10 @@
       "Implémenter une interface responsive avec HTML et CSS"
     ],
     "pictures": [
-      "./img/portfolio-1.png",
-      "./img/portfolio-2.png",
-      "./img/portfolio-3.png",
-      "./img/portfolio-4.png"
+      "./img/portfolio-1.webp",
+      "./img/portfolio-2.webp",
+      "./img/portfolio-3.webp",
+      "./img/portfolio-4.webp"
     ],
     "repo": "https://github.com/hp590490/portfolio"
   }
