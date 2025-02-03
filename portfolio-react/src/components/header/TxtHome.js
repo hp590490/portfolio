@@ -12,10 +12,12 @@ const Accueil = () => {
             <img src={Coucou} alt="emoji coucou" />
           </div>
           <div className="content-bot">
-            <h2>
-              Je <span className="surlignage">suis</span>{" "}
-              <span id="underligne1">Hugo PLASTRE</span>
-            </h2>
+            <h2
+              dangerouslySetInnerHTML={{
+                __html:
+                  'Je <span class="surlignage">suis</span> <span id="underligne1">Hugo PLASTRE</span>',
+              }}
+            />
             <h3
               dangerouslySetInnerHTML={{
                 __html:
