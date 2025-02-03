@@ -12,10 +12,21 @@ const Accueil = () => {
             <img src={Coucou} alt="emoji coucou" />
           </div>
           <div className="content-bot">
+            <p className="testp">
+              {" "}
+              Je <span className="surlignage">suis</span>{" "}
+              <span id="underligne1">Hugo PLASTRE</span>
+            </p>
             <h2>
               Je <span className="surlignage">suis</span>{" "}
               <span id="underligne1">Hugo PLASTRE</span>
             </h2>
+            <p className="testp2">
+              Développeur <span className="surlignage">web junior</span> à la
+              recherche d&#39;une{" "}
+              <span className="surlignage">opportunité</span> dans ce milieu qui
+              me <span className="surlignage">passionne</span>.
+            </p>
             <h3>
               Développeur <span className="surlignage">web junior</span> à la
               recherche d&#39;une{" "}
