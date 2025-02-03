@@ -44,17 +44,15 @@ h3 {
 }
 body {
   text-align: center;
+  min-height: 100vh;
   font-family: $font1;
-  // transition: background-color 0.3s ease, color 0.3s ease;
-  // background: rgb(2, 2, 2);
   background: linear-gradient(
     90deg,
     rgba(2, 2, 2, 1) 0%,
     rgba(8, 11, 9, 1) 91%,
     rgba(17, 23, 19, 1) 97%
   );
-  padding: 0 150px;
-  overflow-x: hidden;
+  padding: 0 10vw;
   color: $white;
   @media screen and (max-width: 1150px) {
     padding: 0 80px;
